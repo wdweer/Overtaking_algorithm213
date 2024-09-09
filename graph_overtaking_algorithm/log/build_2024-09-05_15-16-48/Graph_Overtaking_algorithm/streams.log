@@ -1,0 +1,51 @@
+[0.010s] Invoking command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm': /usr/bin/cmake /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/install/Graph_Overtaking_algorithm
+[0.098s] -- The C compiler identification is GNU 9.4.0
+[0.172s] -- The CXX compiler identification is GNU 9.4.0
+[0.177s] -- Check for working C compiler: /usr/bin/cc
+[0.287s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.289s] -- Detecting C compiler ABI info
+[0.390s] -- Detecting C compiler ABI info - done
+[0.403s] -- Detecting C compile features
+[0.403s] -- Detecting C compile features - done
+[0.406s] -- Check for working CXX compiler: /usr/bin/c++
+[0.531s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.535s] -- Detecting CXX compiler ABI info
+[0.650s] -- Detecting CXX compiler ABI info - done
+[0.666s] -- Detecting CXX compile features
+[0.667s] -- Detecting CXX compile features - done
+[0.668s] -- Using CATKIN_DEVEL_PREFIX: /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm/devel
+[0.668s] -- Using CMAKE_PREFIX_PATH: /home/jbkim12/Graph_Overtaking_Algorithm/devel;/opt/ros/noetic;/home/jbkim12/absol_spd_convert/src/Model_Prediction/hmcl_msgs
+[0.668s] -- This workspace overlays: /home/jbkim12/Graph_Overtaking_Algorithm/devel;/opt/ros/noetic
+[0.694s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.695s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.695s] -- Using Debian Python package layout
+[0.719s] -- Found PY_em: /usr/lib/python3/dist-packages/em.py  
+[0.720s] -- Using empy: /usr/lib/python3/dist-packages/em.py
+[0.848s] -- Using CATKIN_ENABLE_TESTING: ON
+[0.849s] -- Call enable_testing()
+[0.854s] -- Using CATKIN_TEST_RESULTS_DIR: /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm/test_results
+[1.360s] -- Forcing gtest/gmock from source, though one was otherwise available.
+[1.360s] -- Found gtest sources under '/usr/src/googletest': gtests will be built
+[1.360s] -- Found gmock sources under '/usr/src/googletest': gmock will be built
+[1.384s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.389s] -- Found Threads: TRUE  
+[1.399s] -- Using Python nosetests: /usr/bin/nosetests3
+[1.457s] -- catkin 0.8.10
+[1.458s] -- BUILD_SHARED_LIBS is on
+[1.698s] -- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[1.869s] WARNING: Package name "Graph_Overtaking_algorithm" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.977s] -- Configuring done
+[2.005s] -- Generating done
+[2.011s] -- Build files have been written to: /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm
+[2.018s] Invoked command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm' returned '0': /usr/bin/cmake /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/install/Graph_Overtaking_algorithm
+[2.021s] Invoking command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm': /usr/bin/cmake --build /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm -- -j16 -l16
+[2.084s] [35m[1mScanning dependencies of target Graph_Overtaking_algorithm_node[0m
+[2.123s] [ 50%] [32mBuilding CXX object CMakeFiles/Graph_Overtaking_algorithm_node.dir/src/Graph_Overtaking_Algorithm.cpp.o[0m
+[2.543s] [01m[K/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/src/Graph_Overtaking_Algorithm.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Khmcl_msgs/LaneArray.h: No such file or directory
+[2.543s]     9 | #include [01;31m[K<hmcl_msgs/LaneArray.h>[m[K
+[2.543s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.543s] compilation terminated.
+[2.560s] make[2]: *** [CMakeFiles/Graph_Overtaking_algorithm_node.dir/build.make:63: CMakeFiles/Graph_Overtaking_algorithm_node.dir/src/Graph_Overtaking_Algorithm.cpp.o] Error 1
+[2.561s] make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/Graph_Overtaking_algorithm_node.dir/all] Error 2
+[2.562s] make: *** [Makefile:141: all] Error 2
+[2.568s] Invoked command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm' returned '2': /usr/bin/cmake --build /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm -- -j16 -l16

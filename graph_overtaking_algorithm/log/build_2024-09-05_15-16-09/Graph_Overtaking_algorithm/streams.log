@@ -1,0 +1,10 @@
+[0.020s] Invoking command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm': /usr/bin/cmake --build /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm -- -j16 -l16
+[0.125s] [ 50%] [32mBuilding CXX object CMakeFiles/Graph_Overtaking_algorithm_node.dir/src/Graph_Overtaking_Algorithm.cpp.o[0m
+[0.583s] [01m[K/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/src/Graph_Overtaking_Algorithm.cpp:9:10:[m[K [01;31m[Kfatal error: [m[Khmcl_msgs/LaneArray.h: No such file or directory
+[0.583s]     9 | #include [01;31m[K<hmcl_msgs/LaneArray.h>[m[K
+[0.583s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.583s] compilation terminated.
+[0.603s] make[2]: *** [CMakeFiles/Graph_Overtaking_algorithm_node.dir/build.make:63: CMakeFiles/Graph_Overtaking_algorithm_node.dir/src/Graph_Overtaking_Algorithm.cpp.o] Error 1
+[0.604s] make[1]: *** [CMakeFiles/Makefile2:210: CMakeFiles/Graph_Overtaking_algorithm_node.dir/all] Error 2
+[0.605s] make: *** [Makefile:141: all] Error 2
+[0.612s] Invoked command in '/home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm' returned '2': /usr/bin/cmake --build /home/jbkim12/Graph_Overtaking_Algorithm/src/Graph_Overtaking_algorithm/build/Graph_Overtaking_algorithm -- -j16 -l16
